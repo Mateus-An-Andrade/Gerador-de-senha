@@ -101,7 +101,7 @@ def main ():
 
         print('Opção 1: Criar senhas')
         print('Opção 2: Entrar no módulo Token')
-        print('Opção 5: Sair do programa')
+        print('Opção 3: Sair do programa')
 
         escolha_de_opcao=int(input('Qual opção você deseja acessar: '))
         if escolha_de_opcao == 1:
@@ -112,23 +112,9 @@ def main ():
             senha()
         
         elif escolha_de_opcao == 2:
-            print('Opção 1: SENHA NÚMERICA')
-            print('Opção 2: SENHA ALFA-NUMERICA')
-            print('Opção 3: SENHA ALFA-NUMERICA C/ CARACTERES ESPECIAIS')
-            print('=========================================================')
-            senha()
-
-        elif escolha_de_opcao == 3:
-            print('Opção 1: SENHA NÚMERICA')
-            print('Opção 2: SENHA ALFA-NUMERICA')
-            print('Opção 3: SENHA ALFA-NUMERICA C/ CARACTERES ESPECIAIS')
-            print('=========================================================')   
-            senha()
-        
-        elif escolha_de_opcao == 4:
             token()
-
-        if escolha_de_opcao == 5:
+        
+        if escolha_de_opcao == 3:
             print('Finalizando Software...')
             time.sleep(5)
         break
